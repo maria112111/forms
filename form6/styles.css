@@ -1,0 +1,62 @@
+body{
+    background-image: linear-gradient(rgb(158, 178, 235),rgb(224, 149, 162));
+    height: 700px;
+}
+#divleft{
+    width: 30%;
+    float:left;
+    height: 55%;
+    padding: 0px 0px 70px 0px;
+    background-size: cover;
+    background-image: url(images/img.jpg);
+    margin-left:250px;
+    margin-top: 150px;
+
+
+
+    
+}
+#divright{
+    width:30%;
+    background-color:black;
+    float:left;
+    height: 55%;
+    padding: 0px 0px 70px 0px;
+    margin-top:150px
+    
+    
+}
+
+
+
+
+
+input{
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: 4px solid brown;
+    background: black;
+    color: white;
+    margin-left: 50px;
+   border-color: black;
+   color: whitesmoke;
+
+    
+}
+
+select{
+    
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style:4px solid brown;
+    background: black;
+    color:whitesmoke;
+    margin-left: 50px;
+    padding-left:65px;
+    }
+   .fa-color{
+       color: white;
+       
+   } 
