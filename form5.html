@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            form{
+                background-color: yellowgreen;
+                width: 400px;
+                padding: 15px;
+                border-style: solid;
+                border-color:white;
+               
+            }
+            fieldset{
+                border-color: white;
+                background-color:rgba(245, 245, 245, 0.781);
+                
+            }
+           
+        </style>
+        <body>
+            <form action="/action-page.php">
+                 
+                
+                    <label><strong>Step 1:Your details</strong></label>
+                    <fieldset>
+
+                    
+                        <div>
+                            <label>Name</label>
+                            <input type="text" name="name" placeholder="first and last name">
+                        </div></fieldset>
+                        <fieldset>
+                        <div>
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="example@domain.com">
+                        </div></fieldset>
+
+                        <fieldset>
+                        <div>
+                            <label>Phone</label>
+                            <input type="number" name="phone" placeholder="Eg.+499800000000">
+                        </div>
+                    </fieldset></br>
+                    <label><strong>2:Delivery address</strong> </label>
+                    <br>
+                    <fieldset>
+                        <div>
+                            <label>Address</label>
+                            <textarea rows="4" cols="22"></textarea>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div>
+                            <label>Post code</label>
+                            <input type="number" name="postcode">   
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div>
+                            <label>Country</label>
+                            <input type="text" name="country">
+                        </div>
+                    </fieldset><br>
+                    <label><strong>Step 3:Card details</strong></label>
+                    <fieldset>
+                        <div>
+                            <label>Card type</label><br>
+                            <input type="radio" name="card" value="visa">
+                            <input type="image" src="visa.png" width="20px" height="15px">Visa
+                            <input type="radio" name="card" value="amex">
+                            <input type="image" src="AMEX.PNG" width="20px" height="15px">Amex
+                            <input type="radio" name="card" value="Mastercard">
+                            <input type="image" src="mastercard.png" width="20px" height="15px">Mastercard
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div>
+                            <label>Card Number</label>
+                            <input type="number" name="card number"> 
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div>
+                            <label>Security code</label>
+                            <input type="number" name="securitycode"> 
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div>
+                            <label>Name on card</label>
+                            <input type="text" name="name" placeholder="Exact name as on the card">
+                        </div>
+                    </fieldset><br>
+                    <div style="padding-left: 150px;">
+                    <input type="submit" name="submit" value="BUY IT!" style="color:white; background-color: black;">
+                    </div>
+                    
+               
+            
+            </form>
+        </body>
+    </head>
+</html>

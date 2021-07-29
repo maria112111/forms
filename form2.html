@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        form {
+            border-style: solid;
+            border-color: lightpink;
+            background-color: lightblue;
+            padding-left: 50px;
+            width: 230px;
+        }
+        
+        caption {
+            font-size: 15px;
+        }
+        
+        hr {
+            outline-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/action_page.php">
+        <table>
+            <caption><strong>Student Registration Form</strong>
+                <hr>
+
+            </caption>
+
+            <tr>
+
+                <td>Firstname</td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="firstname" name="name"></td>
+            </tr>
+            <tr>
+
+                <td>Middlename:</td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="midddlename" name="name1"></td>
+            </tr>
+            <tr>
+
+                <td>Lasttname:</td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="lasttname" name="name2"></td>
+            </tr>
+            <tr>
+                <td>Course:
+                    <select>
+                <option>course1</option>
+                <option>course2</option>
+                <option>course3</option>
+            </select></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="n1" value="male">Male
+                    <input type="radio" name="n1" value="female">Female
+                    <input type="radio" name="n1" value="other">Other
+                </td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+            </tr>
+            <tr>
+                <td><input type="text" value="+91"></td>
+            </tr>
+            <tr>
+                </br>
+                <td> <input type="number" placeholder="phone no."></td>
+            </tr>
+            <tr>
+                <td>Current Address:</td>
+            </tr>
+            <tr>
+                <td><textarea rows="5" cols="22" placeholder="currentaddress"></textarea></td>
+            </tr>
+            <tr>
+                <td><strong>Email</strong></td>
+            </tr>
+            <tr>
+                <td><input type="email" name="email" placeholder="Enter Email"></td>
+            </tr>
+            <tr>
+                <td><strong>Password</strong></td>
+            </tr>
+            <tr>
+                <td><input type="password" name="password" placeholder="Enter Password"></td>
+            </tr>
+            <tr>
+                <td><strong>Re-type Password</strong></td>
+            </tr>
+            <tr>
+                <td><input type="password" name="Password" placeholder="Retype Password"></td>
+            </tr>
+
+            <tr>
+                <td style="background-color: green;text-align: center;"><input type="submit" name="submit" value="register" style="background: green;color: white; "></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
